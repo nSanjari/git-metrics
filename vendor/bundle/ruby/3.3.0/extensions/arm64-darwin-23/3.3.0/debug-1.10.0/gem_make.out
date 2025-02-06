@@ -1,0 +1,19 @@
+current directory: /Users/mdnomansanjari/metrics_analyzer/vendor/bundle/ruby/3.3.0/gems/debug-1.10.0/ext/debug
+/opt/rubies/3.3.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/mdnomansanjari/metrics_analyzer/vendor/bundle/ruby/3.3.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250203-14785-67mlbp sitelibdir\=./.gem.20250203-14785-67mlbp clean
+
+current directory: /Users/mdnomansanjari/metrics_analyzer/vendor/bundle/ruby/3.3.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250203-14785-67mlbp sitelibdir\=./.gem.20250203-14785-67mlbp
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/mdnomansanjari/metrics_analyzer/vendor/bundle/ruby/3.3.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250203-14785-67mlbp sitelibdir\=./.gem.20250203-14785-67mlbp install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20250203-14785-67mlbp/debug
+
+current directory: /Users/mdnomansanjari/metrics_analyzer/vendor/bundle/ruby/3.3.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250203-14785-67mlbp sitelibdir\=./.gem.20250203-14785-67mlbp clean
