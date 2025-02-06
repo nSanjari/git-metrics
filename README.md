@@ -1,3 +1,39 @@
+# Setup
+
+## Setup local Ruby environment
+
+``` 
+brew install rbenv
+rbenv local 3.3.0
+ruby -v # should show 3.3.0
+```
+
+## Install dependencies
+
+```
+bundle install
+```
+
+## Install GitHub CLI
+
+```
+brew install gh
+gh auth login
+```
+
+## Run the script
+
+```
+# Run direct review analysis
+ruby direct_review_analysis.rb
+
+# Run team review analysis
+ruby team_review_analysis.rb
+
+# Run overall metrics analysis
+ruby overall_metrics_analysis.rb
+```
+
 # PR Review Analytics
 
 Tool to analyze PR review patterns and metrics for the payments-infrastructure team.
